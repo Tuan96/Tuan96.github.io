@@ -65,8 +65,7 @@ h3 {
 .item img {
     max-width: 200px;
     min-height: 120px;
-    max-height: 120px;
-    width: 100%;
+    height: auto;
 }
 
 .item:hover {
@@ -77,6 +76,7 @@ h3 {
 /* Footer Start */
 footer {
     text-align: center;
+    padding-bottom: 10px;;
 }
 
 #social {
