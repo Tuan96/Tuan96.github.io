@@ -88,4 +88,8 @@ footer {
     padding: 10px;
     width: 20px;
 }
+
+#icon img:hover {
+    opacity: 0.5;
+}
 /* Footer End */
