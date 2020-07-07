@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- LightMode: Background Photo by Guillaume de Germain on Unsplash 
+    DarkMode: Background Photo by Guillaume de Germain on Unsplash -->
     <title>Tuan Nguyen</title>
     <script src="script.js" defer></script>
 </head>
@@ -15,48 +17,60 @@
                     <div id="resume"><a href="https://bit.ly/tuannguyenresume06092020" target="_blank">Resume (Updated 06/09/2020)</a></div>
                 </div>
                 <div class="nav-right">
-                    <div class="dark-mode" title="Toggle Dark/Light Mode"><button><img src="images/night-mode.png" alt="Dark/Light Mode, original icon by photo3idea_studio"></button></div>
+                    <div class="dark-mode" id="toggle-button" title="Toggle Dark/Light Mode"><img src="images/night-mode.png" alt="Dark/Light Mode, original icon by photo3idea_studio"></div>
                 </div>
             </div>
         </header>
         <div id="title">
-            <div class="title"><h1>Hey there! This is Tuan Nguyen</h1></div>
-            <div class="subtitle"><h2>My current projects</h2></div>
+            <div class="title"><h1>Hey there, This is Tuan Nguyen</h1></div>
+            <div class="subtitle"><h1>I'm a Software Engineer</h1></div>
+            <div class="social">
+                <div id="icon">
+                    <a href="mailto:tonyminhnguyen96@gmail.com">
+                    <img src="images/mail_icon.png"></a>
+                </div>
+                <div id="icon">
+                    <a href="https://github.com/Tuan96">
+                    <img src="images/github_icon.png"></a>
+                </div>
+                <div id="icon">
+                    <a href="https://www.linkedin.com/in/tuan-tony-nguyen/">
+                    <img src="images/linkedin_icon.png"></a>
+                </div>
+            </div>
+            <div class="subtitle-subtitle"><h2>My Current Projects</h2></div>
         </div>
         <div id="projects">
             <div class="item">
                 <a href="https://www.phohuongque.com/" target="_blank"><img src="images/phohuongque.gif" alt="Pho Huong Que"></a>
-                <figcaption>Pho Huong Que</figcaption>
+                <figcaption><strong>Pho Huong Que</strong></figcaption>
             </div>
             <div class="item">
                 <a href="https://tuan96.github.io/phonetify" target="_blank"><img src="images/phonetify.gif" alt="@Tuan96/rock-paper-scissors"></a>
-                <figcaption>Phonetify</figcaption>
+                <figcaption><strong>Phonetify</strong></figcaption>
             </div>
             <div class="item">
                 <a href="https://tuan96.github.io/rock-paper-scissors" target="_blank"><img src="images/rockpaperscissors.gif" alt="@Tuan96/rock-paper-scissors"></a>
-                <figcaption>Rock-Paper-Scissors</figcaption>
+                <figcaption><strong>Rock-Paper-Scissors</strong></figcaption>
             </div>
             <div class="item">
                 <a href="https://tuan96.github.io/TuanSketch" target="_blank"><img src="images/tuansketch.gif" alt="@Tuan96/TuanSketch"></a>
-                <figcaption>Edge-a-Sketch</figcaption>
+                <figcaption><strong>Edge-a-Sketch</strong></figcaption>
             </div>
         </div>
     </div>
     <footer>
-        <div id="social">
-            <div id="icon">
-                <a href="mailto:tonyminhnguyen96@gmail.com">
-                <img src="images/mail_icon.png"></a>
-            </div>
-            <div id="icon">
-                <a href="https://github.com/Tuan96" target="_blank">
-                <img src="images/github_icon.png"></a>
-            </div>
-            <div id="icon">
-                <a href="https://www.linkedin.com/in/tuan-tony-nguyen/" target="_blank">
-                <img src="images/linkedin_icon.png"></a>
-            </div>
+        <div class="light-mode-credit">
+            <span>Photo by 
+                <a href="https://unsplash.com/@guillaumedegermain?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                Guillaume de Germain
+                </a> 
+                on <a href="https://unsplash.com/s/photos/sea?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                Unsplash
+                </a>
+            </span>
         </div>
+        <div class="dark-mode-credit">Photo by <a href="https://mikaelgustafsson.artstation.com/" target="_blank">Mikael Gustafsson</a></div>
         <div id="copyright">Copyright © 2020 Tuan Nguyen. All rights reserved.</div>
     </footer>
 </body>
